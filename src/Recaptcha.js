@@ -38,7 +38,7 @@ class Recaptcha extends React.Component {
     const head = document.head || document.getElementsByTagName('head')[0];
     const script = document.createElement('script');
     script.id = ID;
-    script.src = `https://www.google.com/recaptcha/api.js?hl=${locale}`;
+    script.src = `https://www.recaptcha.net/recaptcha/api.js?hl=${locale}`;
     script.type = 'text/javascript';
     script.async = true;
     script.defer = true;
